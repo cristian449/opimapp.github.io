@@ -114,3 +114,43 @@ footer {
     bottom: 0;
 }
 
+
+
+
+/* References section */
+.references {
+    background: rgba(0, 50, 0, 0.85); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+
+.references h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.references ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.references li {
+    margin: 10px 0;
+}
+
+.references a {
+    color: #00c8ff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.references a:hover {
+    color: #ffcc00; 
+    text-decoration: underline;
+}
+
