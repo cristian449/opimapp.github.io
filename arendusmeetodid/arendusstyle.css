@@ -157,3 +157,19 @@ footer {
     text-decoration: underline;
 }
 
+
+
+/* Image section */
+.image-container {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.local-image {
+    max-width: 60%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
