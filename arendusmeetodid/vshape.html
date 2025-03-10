@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Ops</title>
+    <title>V-Shape</title>
     <link rel="stylesheet" href="arendusstyle.css">
 </head>
 <body>
     <header>
-        <h1>Dev Ops</h1>
+        <h1>V-Shape</h1>
     </header>
 
     <div class="vertical-menu">
@@ -31,57 +31,75 @@
     <div class="main-content">
         <div class="mina">
             
-            <p>Extreme Programming ehk (XP) on Agiilne tarkvaraarenduse meetod, mis keskendub kvaliteetse tarkvara kiirele ja pidevale arendusele läbi tagasiside, koostöö ja kohandumise. XP rõhutab tihedat koostööd arendajate, kliendi ja teiste osapoolte vahel ning toetab kiiret, iteratiivset arendust ja juurutamist.</p>
-
             <p>
-
-               
-                Ekstreemprogrammeerimise  mudelis on välja töötatud mitmeid häid tavasid
-                </br>
-                                                                                                                                                                                        </br>
-
-                <ul>
-                <li>Koodirevüüd: Vigade avastamiseks ja parandamiseks kasutatakse paarisprogrammeerimist, kus kaks programmeerijat vahetavad rolle iga tunni järel. </br>
-                <li>Testimine: XP toetab testipõhist arendust (TDD), kus testid kirjutatakse enne koodi, tagades usaldusväärsema tarkvara. </br>
-                <li>Järk-järguline arendus: Arendust viiakse ellu väikeste sammudena, võimaldades regulaarset klienditagasisidet ja kiireid kohandusi. </br>
-                <li>Lihtsus: Lihtne ja selge kood on kergemini hallatav, testitav ja vigade suhtes vastupidavam. </br>
-                <li>Disain: Igapäevane süsteemi kujundamine aitab tagada tarkvara kvaliteeti ja paremat arhitektuuri. </br>
-                <li>Integratsioonitestid: XP rõhutab pidevat integratsiooni, kus koodi ühendatakse ja testitakse mitu korda päevas, et avastada võimalikke vigu varakult. </br> 
-                </ul>   
+                V-mudel on tarkvara arenduse elutsükli mudel, kus protsessid toimuvad järjestikku V-kujuliselt. Seda nimetatakse ka verifitseerimise ja valideerimise mudeliks.
+                V-mudel on edasiarendus kosemudelist, kus iga arendusfaasiga on seotud vastav testimisfaas. See tähendab, et iga arendusetapi järel toimub kohe testimine. Tegemist on rangelt struktureeritud mudeliga, kus järgmine etapp algab alles pärast eelmise lõppu.
             </p>
 
-            <p>
-                Ekstreemprogrammeerimise põhiväärtused
-            <ul>
-                <li>Suhtlus: Meeskonnaliikmete vahel toimuv avatud ja sagedane suhtlus tagab süsteemi nõuete ja eesmärkide ühtse mõistmise.
-                <li>Lihtsus: Lihtsuse hoidmine vähendab keerukust ning muudab koodi arusaadavamaks ja hooldatavamaks.
-                <li>Tagasiside: Pidevad tagasisidesilmused testimise ja kliendi kaasamise kaudu aitavad probleeme varakult avastada.
-                <li>Julgus: Meeskonnaliikmeid julgustatakse riske võtma, probleemidest rääkima ja muutustega kohanema.
-                <li>Austus: Iga liikme panust hinnatakse, mis edendab ühistööd ja toetavat töökeskkonda.
-            </ul>
-            </p>
-
-            <p>
-                Ekstreemprogrammeerimise eelised on järgmised
-            <ul>
-                <li>Hilinenud ajakavad: Paindlikud arendustsüklid tagavad õigeaegse tarnimise.
-                <li>Äri- ja domeenialased arusaamatused: Kliendi pidev kaasamine väldib vääritimõistmisi.
-                <li>Projektide katkestamine: Avatud suhtlus kliendiga aitab probleeme kiirelt lahendada.
-                <li>Töötajate voolavus: Tihe koostöö ja meeskonnavaim loovad motiveeriva töökeskkonna.
-                <li>Muutustega kaasnevad kulud: Pidev testimine tagab süsteemi töökindluse ka muudatuste korral.
-                <li>Ärimuudatused: Muutusi aktsepteeritakse igal ajahetkel kui loomulikku osa protsessist.
-                <li>ootmis- ja järelhooldusvead: Üksustestid aitavad vigu kiiresti leida ja parandada.
-            </ul>
-            </p>
-
-            <p>
-                Ekstreemse programmeerimise elutsükkel koosneb viiest faasist
-            </p>
 
             <div class="image-container">
-                <img src="xp.webp" alt="Spiraalmudeli skeem" class="local-image">
+                <img src="vmodel.webp" alt="Spiraalmudeli skeem" class="local-image">
             </div>
-           
+
+            <p>
+                V-Mudeli Põhimõtted
+
+                <ul>
+                    <li>Suurtest detailideni: V-mudelis toimub testimine hierarhiliselt. Projekti alguses määratletakse nõuded, seejärel luuakse kõrgetasemeline ja detailne disain. <br>
+
+                    <li>Andmete ja protsesside terviklikkus: Edukas projekt nõuab nii andmete kui ka protsesside sujuvat lõimimist. Igas nõudes tuleb määratleda ka protsessielemendid.  <br>
+
+                    <li>Mastaapsus: V-mudel on paindlik ja sobib igas suuruses.  <br>
+
+                    <li>Ristviitamine: Igal nõudel on otsene seos vastava testimistegevusega.  <br>
+                </ul>
+            </p>
+
+
+            <p>
+                V-mudeli disain
+            <ul>
+                <li>Nõuete kogumine ja analüüs: Esimeses etapis kogutakse ja analüüsitakse kliendi tarkvaranõuded. </br>
+
+                <li>Disain: Selles etapis luuakse tarkvara arhitektuur ning töötatakse disain.</br>
+                
+                <li>Teostus: Tarkvara arendatakse vastavalt disainile.</br>
+                
+                <li>Testimine: Kontrollitakse, kas tarkvara vastab nõuetele.</br>
+                
+                <li>Rakendamine: Tarkvara viiakse kasutusele.</br>
+                
+                <li>Hooldus: Tagatakse tarkvara jätkuv toimivus ja vastavus kasutaja ootustele.</br>
+                
+                <li>V mudelit kasutatakse süsteemides nagu lennundus ja kaitsetööstu  kuna see rõhutab põhjalikku testimist ja selget arendusprotsessi.</br>
+            </ul>
+
+            </p>
+
+
+            <p>
+                V-mudel – plussid ja miinused
+
+                V-mudeli eeliseks on selle lihtsus ja kergesti hallatav struktuur. See sobib hästi väiksematele projektidele, kus nõuded on selgelt määratletud. Miinuseks on aga paindlikkuse puudumine ehk seega kui projektis tekivad muudatused, võivad need olla kulukad ja keerulised ellu viia. </br>
+            </br>
+                Eelised:
+                <ul>
+                <li>Struktureeritud ja distsiplineeritud lähenemine. </br>
+                <li>Sobib hästi väikestele ja selgelt määratletud projektidele. </br>
+                <li>Lihtne mõista ja rakendada. </br>
+                <li>Kerge hallata tänu selgetele etappidele ja ülevaatusprotsessidele. </br>
+                </ul>
+
+                Puudused: 
+                <ul>
+                    <li>  Kõrge risk ja ebakindlus. </br>
+                    <li>  Ei sobi keerukatele ja objektorienteeritud projektidele. </br>
+                    <li>  Pole hea valik pikaajalistele ja muutuvatele projektidele. </br>
+                    <li>  Muudatuste tegemine testimisfaasis on keeruline ja kulukas. </br>
+                    <li>  Töötav tarkvara valmib alles hilises arendusetapis. </br>
+                </ul>
+            </p>
+            
 
 
         </div>
@@ -90,7 +108,8 @@
     <div class="references">
         <h3>Viited</h3>
         <ul>
-            <li><a href="https://www.geeksforgeeks.org/software-engineering-extreme-programming-xp/">GeeksForGeeks</a></li>
+            <li><a href="https://www.geeksforgeeks.org/software-engineering-sdlc-v-model/">GeeksForGeeks</a></li>
+            <li><a href="https://www.tutorialspoint.com/sdlc/sdlc_v_model.htm">TutorialsPoint</a></li>
         </ul>
     </div>
 
