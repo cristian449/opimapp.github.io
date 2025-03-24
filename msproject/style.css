@@ -1,0 +1,179 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/Png.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF; /* White text for readability */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Header styles */
+header {
+    background: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Sidebar (vertical menu) */
+.vertical-menu {
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(0, 50, 0, 0.85);
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 140px; /* Adjusted to not overlap header */
+    left: 0;
+    overflow-y: auto;
+}
+
+.vertical-menu a {
+    display: block;
+    color: white;
+    background-color: #236b1c;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.vertical-menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: fixed;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%;
+    background-color: #101010;
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    background-color: #333;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main content area */
+.main-content {
+    margin-left: 280px; /* Pushes content to the right of the menu */
+    padding: 150px 20px 20px 20px; /* Adjusted for header and content spacing */
+    flex: 1;
+}
+
+/* Text box (background for readability) */
+.mina {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+/* Footer styles */
+footer {
+    background: darkslategray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+
+
+
+
+/* References section */
+.references {
+    background: rgba(0, 50, 0, 0.85); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+
+.references h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.references ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.references li {
+    margin: 10px 0;
+}
+
+.references a {
+    color: #00c8ff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.references a:hover {
+    color: #ffcc00; 
+    text-decoration: underline;
+}
+
+
+
+/* Image section */
+.image-container {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.local-image {
+    max-width: 60%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
