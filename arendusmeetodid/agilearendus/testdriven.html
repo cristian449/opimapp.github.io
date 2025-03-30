@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dseign Driven Development</title>
+    <title>Test driven Development</title>
     <link rel="stylesheet" href="arendusstyle.css">
 </head>
 <body>
     <header>
-        <h1>Dseign Driven Development</h1>
+        <h1>Test driven Development</h1>
     </header>
 
     <div class="vertical-menu">
@@ -18,26 +18,47 @@
     <div class="main-content">
         <div class="mina">
             <p>
-               
+                Test driven Development on tarkvaraarenduse meetod, kus enne koodi kirjutamist luuakse testid. See tagab,
+                et kood on alati testitud ja töökindel, vähendades vigu ning parandades kvaliteeti. 
+                DD-s kirjutavad arendajad esmalt väikesed ja sihipärased testid soovitud funktsionaalsuse määratlemiseks, 
+                seejärel loovad miinimumkoodi nende testide läbimiseks ning lõpuks optimeerivad koodi struktuuri ja jõudlust.
             </p>
 
             <div class="image-container">
-                <img src="securebydesign.png" alt="big bang skeem" class="local-image">
+                <img src="testdriven.webp" alt="big bang skeem" class="local-image">
             </div>
 
 
             <h3>Eelised</h3>
-           
+            <li>Üksustestid annavad pidevat tagasisidet funktsioonide kohta.
+
+             <li>Parema disainikvaliteedi tõttu on hooldus lihtsam.
+            
+             <li>Testipõhine arendus (TDD) toimib veakaitsemehhanismina.
+            
+             <li>TDD tagab, et rakendus vastab nõuetele.
+            
+             <li>TDD-l on lühike arendustsükkel.
 
 
             <h3>Puudused</h3>
-            
+            <li>Suurenenud koodimaht: TDD kasutamine nõuab lisakoodi kirjutamist testjuhtumite jaoks, muutes koodibaasi suuremaks ja vähemstruktureerituks.
+
+            <li>Vale turvatunne: Läbivad testid võivad tekitada arendajates petliku kindlustunde koodi ohutuse osas.
+
+            <li>Hoolduskulud: Paljude testide ajakohasena hoidmine on keeruline ja aeganõudev.
+
+            <li>Ajamahukad testiprotsessid: Testide kirjutamine ja hooldamine võtab palju aega.
+
+            <li>Testimiskeskkonna seadistamine: TDD nõuab korralikku testimiskeskkonda, mille ülesseadmine ja haldamine nõuab lisapingutust.
+
 
 
             <h3>Case Vahendi kasutus</h3>
             <p>
-                <h4></h4>
+                <h4>Junit</h4>
              
+                Kasutatakse korratavate automatiseeritud testide kirjutamiseks ja käitamiseks.
             </p>
 
 
@@ -47,10 +68,8 @@
     <div class="references">
         <h3>Viited</h3>
         <ul>
-            <li><a href="https://www.checkpoint.com/cyber-hub/cloud-security/what-is-developer-security/secure-by-design-the-complete-guide/#:~:text=Benefits%20of%20a%20Secure%20by%20Design%20Approach&text=Improved%20Efficiency%3A%20SbD%20focuses%20on,adding%20new%20features%20and%20functionality.">Check Point</a></li>
-            <li><a href="https://www.cisa.gov/securebydesign#:~:text=What%20it%20Means%20to%20Be,it%20as%20a%20technical%20feature.">Wikipedia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Secure_by_design#:~:text=The%20disadvantage%20is%20that%20attackers,source%20code%20outweighs%20the%20disadvantage.">Cisa</a></li>
-            <li><a href="https://owasp.org/www-project-threat-dragon/">Threat Dragon</a></li>
+            <li><a href="https://www.geeksforgeeks.org/test-driven-development-tdd/">GeeksforGeeks</a></li>
+            <li><a href="https://www.parasoft.com/blog/junit-tutorial-setting-up-writing-and-running-java-unit-tests/#:~:text=Download%20the%20Guide-,What%20Is%20JUnit%3F,and%20run%20repeatable%20automated%20tests.">Junit/a></li>
         </ul> 
     </div>
 
